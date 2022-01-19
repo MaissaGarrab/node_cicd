@@ -81,12 +81,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        
-        // Replace the values here with your names you submitted in one of 
-        // The previous sections
         application_name: docker-node-app
-        environment_name: Dockernodeapp-env
-        
+        environment_name: Dockernodeapp-env       
         version_label: 12348
         region: "us-east-2"
         deployment_package: deploy.zip
